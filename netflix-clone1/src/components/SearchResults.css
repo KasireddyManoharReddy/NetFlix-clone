@@ -1,0 +1,161 @@
+/* SearchResults.css */
+
+
+/*.search-results-container {
+    padding: 20px;
+    background-color: #121212;
+    color: white;
+}
+
+.search-results-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.movies-grid p {
+    text-align: center;
+    color: #e0e0e0;
+}*/
+
+
+/* SearchResults.css */
+
+
+/*.search-results-container {
+    padding: 20px;
+    background-color: #121212;
+   
+    color: white;
+}
+
+.search-results-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #e0e0e0;
+    
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    
+    gap: 15px;
+}
+
+.movie-card {
+    background-color: #1c1c1c;
+   
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 2px solid #333;
+    
+}
+
+.movie-info {
+    padding: 10px;
+    color: white;
+}
+
+.movie-info h3 {
+    font-size: 1rem;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ 
+}
+
+.movie-info p {
+    font-size: 0.8rem;
+    margin: 5px 0 0;
+}*/
+
+.search-results-container {
+    padding: 50px;
+    align-items: center;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.movie-card {
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.movie-info {
+    padding: 10px;
+}
+
+.movie-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.movie-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.search-results-container {
+    padding: 20px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.back-arrow {
+    font-size: 30px;
+    /* Increase the size of the arrow */
+    color: red;
+    /* Change the color to red */
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 20px;
+}
